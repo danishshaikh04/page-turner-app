@@ -1,0 +1,45 @@
+/* ... existing CSS ... */
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 11;
+  }
+  .logo-link{
+    text-decoration: none; /* remove underline */
+  color: inherit;
+  }
+  .logo {
+    width: 100%;
+    color: #fff;
+    padding-left: 30px;
+    font-size: 2rem;
+  }
+
+  .header-controls {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .control {
+    margin-right: 20px;
+   color: #fff;
+   text-align: center;
+    cursor: pointer;
+  }
+  
+  .control img {
+    width: 4rem;
+    
+  }
+  
+  .control span {
+    font-size: 1em;
+  }
+
+  

@@ -1,0 +1,26 @@
+.panel-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1111;
+    color: white;
+  }
+
+.back-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.next-button{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+}
+img{
+    width: 3.5rem;
+}
